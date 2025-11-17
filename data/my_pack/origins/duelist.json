@@ -1,0 +1,14 @@
+{
+    "name": "The Duelist",
+    "description": "A new challenger approaches...",
+    "powers": [
+        "my_pack:p/chips",
+        "my_pack:b/na",
+        "my_pack:b/nh",
+        "my_pack:g/web"
+    ],
+    "icon": {
+        "item": "iron_sword"
+    },
+    "impact": 2
+}
