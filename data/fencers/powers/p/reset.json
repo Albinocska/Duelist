@@ -3,7 +3,7 @@
     "name":"Warrior's rest",
     "description":"Twice a day, fully heal yourself from your wounds in battle. Resets every chip and heals you to full hp. Taking damage resets the cooldown",
     "cooldown": 12000,
-    "key":"key.keyboard.y",
+    "key":"key.loadToolbarActivator",
     "badges": [
         {
             "type": "origins:keybind",
