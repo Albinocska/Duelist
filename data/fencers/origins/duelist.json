@@ -6,6 +6,7 @@
         "fencers:p/wager_toggle",
         "fencers:p/wager_choices",
         "fencers:p/wager_showcase",
+        "fencers:p/reset",
         "fencers:b/no_aarmor",
         "fencers:b/no_healing",
         "fencers:g/web",

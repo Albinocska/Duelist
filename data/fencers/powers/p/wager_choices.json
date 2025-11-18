@@ -23,6 +23,11 @@
                     "change": 1,
                     "operation": "add",
                     "resource": "fencers:wager/chips/over_all"
+                },
+                {
+                    "type": "apoli:play_sound",
+                    "sound": "minecraft:item.armor.equip_chain",
+                    "volume": 1
                 }
             ]
         }
@@ -48,6 +53,11 @@
                     "change": 1,
                     "operation": "add",
                     "resource": "fencers:wager/chips/over_all"
+                },
+                {
+                    "type": "apoli:play_sound",
+                    "sound": "minecraft:item.armor.equip_chain",
+                    "volume": 1
                 }
             ]
         }
@@ -73,6 +83,11 @@
                     "change": 1,
                     "operation": "add",
                     "resource": "fencers:wager/chips/over_all"
+                },
+                {
+                    "type": "apoli:play_sound",
+                    "sound": "minecraft:item.armor.equip_chain",
+                    "volume": 1
                 }
             ]
         }
@@ -98,6 +113,11 @@
                     "change": 1,
                     "operation": "add",
                     "resource": "fencers:wager/chips/over_all"
+                },
+                {
+                    "type": "apoli:play_sound",
+                    "sound": "minecraft:item.armor.equip_chain",
+                    "volume": 1
                 }
             ]
         }

@@ -79,7 +79,6 @@
                     "operation": "set"
                 }
             ]
-            
         }
     },
     "prevent-death": {
@@ -228,6 +227,10 @@
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/over_all"
+                },
+                {
+                    "type":"apoli:trigger_cooldown",
+                    "power": "fencers:p/reset"
                 }
             ]
         }
