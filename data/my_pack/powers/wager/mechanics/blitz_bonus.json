@@ -1,0 +1,14 @@
+{
+    "type":"apoli:multiple",
+
+    "lvl_1":{
+        "type":"apoli:conditioned_attribute",
+        "condition": {
+            "type": "apoli:resource",
+            "compare_to": 1,
+            "comparison": "==",
+            "resource": "duelist:wager/chips"
+        }
+    }
+    
+}

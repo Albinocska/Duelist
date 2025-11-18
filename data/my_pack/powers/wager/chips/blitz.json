@@ -1,0 +1,19 @@
+{
+        "type":"apoli:resource",
+        "min": 0,
+        "max": 5,
+        "hidden": true,
+        "hud_render": {
+                "should_render": true,
+                "sprite_location": "",
+                "bar_index": 0,
+                "icon_index": 0,
+                "order": 1,
+                "condition": {
+                        "type": "apoli:resource",
+                        "comparison": ">",
+                        "compare_to": 0,
+                        "resource": "*:*"
+                }
+        }
+}

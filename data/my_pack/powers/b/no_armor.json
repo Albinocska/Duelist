@@ -1,0 +1,11 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}
