@@ -64,10 +64,90 @@
                     "type": "origins:clear_effect"
                 },
                 {
-                    "type": "origins:change_resource",
-                    "resource": "*:*_revives",
-                    "change": 1,
-                    "operation": "add"
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "action": {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_revives",
+                                "change": 1,
+                                "operation": "add"
+                            },
+                            "condition": {
+                                "type": "origins:or",
+                                "conditions": [
+                                    {
+                                        "type": "origins:resource",
+                                        "compare_to": 0,
+                                        "comparison": "==",
+                                        "resource": "duelist:wager/chips/over_all"
+                                    },
+                                    {
+                                        "type": "origins:resource",
+                                        "compare_to": 1,
+                                        "comparison": "==",
+                                        "resource": "duelist:wager/chips/over_all"
+                                    }
+                                ]
+                            }  
+                        },
+                        {
+                            "action": {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_revives",
+                                "change": 2,
+                                "operation": "add"
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "compare_to": 2,
+                                "comparison": "==",
+                                "resource": "duelist:wager/chips/over_all"
+                            }  
+                        },
+                        {
+                            "action": {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_revives",
+                                "change": 3,
+                                "operation": "add"
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "compare_to": 3,
+                                "comparison": "==",
+                                "resource": "duelist:wager/chips/over_all"
+                            }  
+                        },
+                        {
+                            "action": {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_revives",
+                                "change": 4,
+                                "operation": "add"
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "compare_to": 4,
+                                "comparison": "==",
+                                "resource": "duelist:wager/chips/over_all"
+                            }  
+                        },
+                        {
+                            "action": {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_revives",
+                                "change": 5,
+                                "operation": "add"
+                            },
+                            "condition": {
+                                "type": "origins:resource",
+                                "compare_to": 5,
+                                "comparison": "==",
+                                "resource": "duelist:wager/chips/over_all"
+                            }  
+                        }
+                    ]
                 },
                 {
                     "type": "origins:play_sound",
@@ -81,6 +161,36 @@
                     "space": "local",
                     "client": true,
                     "server": true
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "duelist:wager/chips/blitz"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "duelist:wager/chips/advance_aliance"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "duelist:wager/chips/true_focus"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "duelist:wager/chips/overwhelming_strength"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "duelist:wager/chips/over_all"
                 }
             ]
         }
