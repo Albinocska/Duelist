@@ -1,0 +1,91 @@
+{
+    "type":"apoli:multiple",
+    "hidden":false,
+    "description":"test",
+    "badges": [
+
+    ],
+    "lvl_1":{
+        "type":"apoli:conditioned_attribute",
+        "condition": {
+            "type": "apoli:resource",
+            "compare_to": 1,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+        },
+        "modifier":{
+            "attribute": "minecraft:generic.movement_speed",
+            "name": "SPEED",
+            "operation": "addition",
+            "value": 0.013
+        },
+        "tick_rate": 20
+    },
+
+    "lvl_2":{
+        "type":"apoli:conditioned_attribute",
+        "condition": {
+            "type": "apoli:resource",
+            "compare_to": 2,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+        },
+        "modifier":{
+            "attribute": "minecraft:generic.movement_speed",
+            "name": "SPEED",
+            "operation": "addition",
+            "value": 0.03
+        },
+        "tick_rate": 20
+        
+    },
+    "lvl_3":{
+        "type":"apoli:conditioned_attribute",
+        "condition": {
+            "type": "apoli:resource",
+            "compare_to": 3,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+        },
+        "modifier":{
+            "attribute": "minecraft:generic.movement_speed",
+            "name": "SPEED",
+            "operation": "addition",
+            "value": 0.043
+        },
+        "tick_rate": 20
+    },
+    "lvl_4":{
+        "type":"apoli:conditioned_attribute",
+        "condition": {
+            "type": "apoli:resource",
+            "compare_to": 4,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+        },
+        "modifier":{
+            "attribute": "minecraft:generic.movement_speed",
+            "name": "SPEED",
+            "operation": "addition",
+            "value": 0.56
+        },
+        "tick_rate": 20
+    },
+    "lvl_5":{
+        "type":"apoli:conditioned_attribute",
+        "condition": {
+            "type": "apoli:resource",
+            "compare_to": 5,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+        },
+        "modifier":{
+            "attribute": "minecraft:generic.movement_speed",
+            "name": "SPEED",
+            "operation": "addition",
+            "value": 0.08
+        },
+        "tick_rate": 20
+    }
+    
+}

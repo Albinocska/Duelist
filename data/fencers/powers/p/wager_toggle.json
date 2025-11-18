@@ -1,0 +1,19 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "condition": {
+        "type": "origins:resource",
+        "compare_to": 5,
+        "comparison": "<",
+        "resource": "fencers:wager/chips/over_all"
+    },
+    "retain_state": false,
+    "description":"test",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/toggle.png",
+            "text":"Activate with %s!"
+        }
+    ]
+}

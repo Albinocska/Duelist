@@ -9,7 +9,8 @@
         "hud_render": {
             "should_render": true,
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-            "bar_index": 6
+            "bar_index": 6,
+            "order": 0
         },
         "max_action": {
             "type": "origins:and",
@@ -80,13 +81,13 @@
                                         "type": "origins:resource",
                                         "compare_to": 0,
                                         "comparison": "==",
-                                        "resource": "duelist:wager/chips/over_all"
+                                        "resource": "fencers:wager/chips/over_all"
                                     },
                                     {
                                         "type": "origins:resource",
                                         "compare_to": 1,
                                         "comparison": "==",
-                                        "resource": "duelist:wager/chips/over_all"
+                                        "resource": "fencers:wager/chips/over_all"
                                     }
                                 ]
                             }  
@@ -102,7 +103,7 @@
                                 "type": "origins:resource",
                                 "compare_to": 2,
                                 "comparison": "==",
-                                "resource": "duelist:wager/chips/over_all"
+                                "resource": "fencers:wager/chips/over_all"
                             }  
                         },
                         {
@@ -116,7 +117,7 @@
                                 "type": "origins:resource",
                                 "compare_to": 3,
                                 "comparison": "==",
-                                "resource": "duelist:wager/chips/over_all"
+                                "resource": "fencers:wager/chips/over_all"
                             }  
                         },
                         {
@@ -130,7 +131,7 @@
                                 "type": "origins:resource",
                                 "compare_to": 4,
                                 "comparison": "==",
-                                "resource": "duelist:wager/chips/over_all"
+                                "resource": "fencers:wager/chips/over_all"
                             }  
                         },
                         {
@@ -144,7 +145,7 @@
                                 "type": "origins:resource",
                                 "compare_to": 5,
                                 "comparison": "==",
-                                "resource": "duelist:wager/chips/over_all"
+                                "resource": "fencers:wager/chips/over_all"
                             }  
                         }
                     ]
@@ -166,31 +167,31 @@
                     "type":"apoli:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "duelist:wager/chips/blitz"
+                    "resource": "fencers:wager/chips/blitz"
                 },
                 {
                     "type":"apoli:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "duelist:wager/chips/advance_aliance"
+                    "resource": "fencers:wager/chips/advance_aliance"
                 },
                 {
                     "type":"apoli:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "duelist:wager/chips/true_focus"
+                    "resource": "fencers:wager/chips/true_focus"
                 },
                 {
                     "type":"apoli:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "duelist:wager/chips/overwhelming_strength"
+                    "resource": "fencers:wager/chips/overwhelming_strength"
                 },
                 {
                     "type":"apoli:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "duelist:wager/chips/over_all"
+                    "resource": "fencers:wager/chips/over_all"
                 }
             ]
         }

@@ -1,0 +1,105 @@
+{
+    "type": "apoli:multiple",
+    "hidden":true,
+    
+    "advance_valiance":{
+        "type": "apoli:active_self",
+        "condition": {
+            "type":"apoli:power_active",
+            "power":"fencers:p/wager_toggle"
+        },
+        "key": "key.hotbar.1",
+        "entity_action": {
+            "type":"apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/advance_valiance"
+                },
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/over_all"
+                }
+            ]
+        }
+    },
+    "blitz":{
+        "type": "apoli:active_self",
+        "condition": {
+            "type":"apoli:power_active",
+            "power":"fencers:p/wager_toggle"
+        },
+        "key": "key.hotbar.2",
+        "entity_action": {
+            "type":"apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/blitz"
+                },
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/over_all"
+                }
+            ]
+        }
+    },
+    "overwhelming_strength":{
+        "type": "apoli:active_self",
+        "condition": {
+            "type":"apoli:power_active",
+            "power":"fencers:p/wager_toggle"
+        },
+        "key": "key.hotbar.3",
+        "entity_action": {
+            "type":"apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/overwhelming_strength"
+                },
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/over_all"
+                }
+            ]
+        }
+    },
+    "true_focus":{
+        "type": "apoli:active_self",
+        "condition": {
+            "type":"apoli:power_active",
+            "power":"fencers:p/wager_toggle"
+        },
+        "key": "key.hotbar.4",
+        "entity_action": {
+            "type":"apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/true_focus"
+                },
+                {
+                    "type": "apoli:change_resource",
+                    "change": 1,
+                    "operation": "add",
+                    "resource": "fencers:wager/chips/over_all"
+                }
+            ]
+        }
+    }
+}
