@@ -11,6 +11,6 @@
             "power": "fencers:p/wager_toggle"
         },
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-        "bar_index": 13
+        "bar_index": 12
     }
 }

@@ -6,7 +6,7 @@
         "hud_render": {
                 "should_render": true,
                 "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-                "bar_index": 2,
+                "bar_index": 1,
                 "icon_index": 0,
                 "order": 4,
                 "condition": {

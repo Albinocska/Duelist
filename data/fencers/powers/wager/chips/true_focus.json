@@ -6,7 +6,7 @@
         "hud_render": {
                 "should_render": true,
                 "sprite_location": "origins:textures/gui/resource_bar.png",
-                "bar_index": 6,
+                "bar_index": 5,
                 "icon_index": 0,
                 "order": 5,
                 "condition": {

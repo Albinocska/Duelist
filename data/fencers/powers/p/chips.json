@@ -40,10 +40,46 @@
         "type": "origins:action_on_callback",
         "execute_chosen_when_orb": true,
         "entity_action_respawned": {
-            "type": "origins:change_resource",
-            "resource": "*:*_revives",
-            "change": 0,
-            "operation": "set"
+            "type":"apoli:and",
+            "actions": [
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "fencers:wager/chips/blitz"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "fencers:wager/chips/advance_valiance"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "fencers:wager/chips/true_focus"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "fencers:wager/chips/overwhelming_strength"
+                },
+                {
+                    "type":"apoli:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource": "fencers:wager/chips/over_all"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_revives",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+            
         }
     },
     "prevent-death": {
@@ -173,7 +209,7 @@
                     "type":"apoli:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "fencers:wager/chips/advance_aliance"
+                    "resource": "fencers:wager/chips/advance_valiance"
                 },
                 {
                     "type":"apoli:change_resource",
