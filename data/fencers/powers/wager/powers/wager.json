@@ -11,7 +11,7 @@
     "badges": [
         {
             "type": "origins:keybind",
-            "sprite": "origins:textures/gui/badge/toggle.png",
+            "sprite": "origins:textures/gui/badge/active.png",
             "text":"Activate with %s!"
         }
     ],

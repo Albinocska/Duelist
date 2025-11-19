@@ -230,7 +230,7 @@
                 },
                 {
                     "type":"apoli:trigger_cooldown",
-                    "power": "fencers:p/reset"
+                    "power": "fencers:p/full_heal"
                 }
             ]
         }

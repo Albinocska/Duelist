@@ -3,7 +3,7 @@
     "name":"Warrior's rest",
     "description":"Fully heal yourself from your wounds in battle. Resets every chip and heals you to full hp. Taking damage resets the cooldown",
     "cooldown": 6000,
-    "key":"key.loadToolbarActivator",
+    "key":"key.origins.secondary_active",
     "badges": [
         {
             "type": "origins:keybind",
@@ -55,7 +55,7 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "fencers:p/chips_revives",
-                    "change": 0,
+                    "change": 5,
                     "operation": "set"
                 },
                 {
