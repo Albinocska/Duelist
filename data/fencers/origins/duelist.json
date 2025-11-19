@@ -3,14 +3,8 @@
     "description": "A new challenger approaches...",
     "powers": [
         "fencers:p/chips",
-        "fencers:p/wager_toggle",
-        "fencers:p/wager_choices/advance_valiance",
-        "fencers:p/wager_choices/blitz",
-        "fencers:p/wager_choices/overwhelming_strength",
-        "fencers:p/wager_choices/true_focus",
-        "fencers:p/wager_showcase",
-        "fencers:p/reset",
-        "fencers:b/no_aarmor",
+        "fencers:p/full_heal",
+        "fencers:b/no_armor",
         "fencers:b/no_healing",
         "fencers:g/web",
         "fencers:wager/chips/advance_valiance",
@@ -18,6 +12,10 @@
         "fencers:wager/chips/overwhelming_strength",
         "fencers:wager/chips/true_focus",
         "fencers:wager/chips/over_all",
+        "fencers:wager/chips/wagered",
+        "fencers:wager/powers/wager",
+        "fencers:wager/powers/wager_showcase",
+        "fencers:wager/powers/scroll",
         "fencers:wager/mechanics/blitz_bonus",
         "fencers:wager/mechanics/true_focus_bonus"
 
