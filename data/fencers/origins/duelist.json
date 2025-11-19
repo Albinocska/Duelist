@@ -4,7 +4,10 @@
     "powers": [
         "fencers:p/chips",
         "fencers:p/wager_toggle",
-        "fencers:p/wager_choices",
+        "fencers:p/wager_choices/advance_valiance",
+        "fencers:p/wager_choices/blitz",
+        "fencers:p/wager_choices/overwhelming_strength",
+        "fencers:p/wager_choices/true_focus",
         "fencers:p/wager_showcase",
         "fencers:p/reset",
         "fencers:b/no_aarmor",
@@ -15,7 +18,8 @@
         "fencers:wager/chips/overwhelming_strength",
         "fencers:wager/chips/true_focus",
         "fencers:wager/chips/over_all",
-        "fencers:wager/mechanics/blitz_bonus"
+        "fencers:wager/mechanics/blitz_bonus",
+        "fencers:wager/mechanics/true_focus_bonus"
 
     ],
     "icon": {

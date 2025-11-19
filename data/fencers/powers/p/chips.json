@@ -5,14 +5,14 @@
         "type": "origins:resource",
         "min": 0,
         "max": 5,
-        "start_value": 0,
+        "start_value": 5,
         "hud_render": {
             "should_render": true,
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
             "bar_index": 6,
             "order": 0
         },
-        "max_action": {
+        "min_action": {
             "type": "origins:and",
             "actions": [
                 {
@@ -30,7 +30,7 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "*:*_revives",
-                    "change": 0,
+                    "change": 5,
                     "operation": "set"
                 }
             ]
@@ -75,7 +75,7 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "*:*_revives",
-                    "change": 0,
+                    "change": 5,
                     "operation": "set"
                 }
             ]
@@ -85,8 +85,8 @@
         "condition": {
             "type": "origins:resource",
             "resource": "*:*_revives",
-            "comparison": "<",
-            "compare_to": 5
+            "comparison": ">",
+            "compare_to": 0
         },
         "type": "origins:modify_damage_taken",
         "modifier": {
@@ -106,7 +106,7 @@
                             "action": {
                                 "type": "origins:change_resource",
                                 "resource": "*:*_revives",
-                                "change": 1,
+                                "change": -1,
                                 "operation": "add"
                             },
                             "condition": {
@@ -131,7 +131,7 @@
                             "action": {
                                 "type": "origins:change_resource",
                                 "resource": "*:*_revives",
-                                "change": 2,
+                                "change": -2,
                                 "operation": "add"
                             },
                             "condition": {
@@ -145,7 +145,7 @@
                             "action": {
                                 "type": "origins:change_resource",
                                 "resource": "*:*_revives",
-                                "change": 3,
+                                "change": -3,
                                 "operation": "add"
                             },
                             "condition": {
@@ -159,7 +159,7 @@
                             "action": {
                                 "type": "origins:change_resource",
                                 "resource": "*:*_revives",
-                                "change": 4,
+                                "change": -4,
                                 "operation": "add"
                             },
                             "condition": {
@@ -173,7 +173,7 @@
                             "action": {
                                 "type": "origins:change_resource",
                                 "resource": "*:*_revives",
-                                "change": 5,
+                                "change": -5,
                                 "operation": "add"
                             },
                             "condition": {
