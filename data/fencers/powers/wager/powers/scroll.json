@@ -1,0 +1,66 @@
+{
+    "type": "apoli:multiple",
+    "hidden": true,
+
+    "left":{
+        "type":"apoli:active_self",
+        "key": "key.saveToolbarActivator",
+        "hidden": true,
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "entity_action": {
+            "type": "apoli:if_else",
+            "condition": {
+                "type": "apoli:resource",
+                "compare_to": 0,
+                "comparison": "!=",
+                "resource": "fencers:wager/chips/wagered"
+            },
+            "if_action": {
+                "type": "apoli:change_resource",
+                "change": -1,
+                "operation": "add",
+                "resource": "fencers:wager/chips/wagered"
+            },
+            "else_action": {
+                "type": "apoli:change_resource",
+                "change": 3,
+                "operation": "set",
+                "resource": "fencers:wager/chips/wagered"
+            }
+        }
+    },
+    
+    "right":{
+        "type":"apoli:active_self",
+        "key": "key.loadToolbarActivator",
+        "hidden": true,
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "entity_action": {
+            "type": "apoli:if_else",
+            "condition": {
+                "type": "apoli:resource",
+                "compare_to": 3,
+                "comparison": "!=",
+                "resource": "fencers:wager/chips/wagered"
+            },
+            "if_action": {
+                "type": "apoli:change_resource",
+                "change": 1,
+                "operation": "add",
+                "resource": "fencers:wager/chips/wagered"
+            },
+            "else_action": {
+                "type": "apoli:change_resource",
+                "change": 0,
+                "operation": "set",
+                "resource": "fencers:wager/chips/wagered"
+            }
+        }
+    }
+}
