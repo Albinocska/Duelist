@@ -64,7 +64,8 @@
                 },
                 {
                     "type": "origins:play_sound",
-                    "sound": "minecraft:"
+                    "sound": "minecraft:block.amethyst_block.place",
+                    "volume": 1
                 }
             ]
     }
