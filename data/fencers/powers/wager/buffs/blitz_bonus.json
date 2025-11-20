@@ -19,12 +19,6 @@
                 "name": "SPEED",
                 "operation": "addition",
                 "value": 0.02
-            },
-            {
-                "attribute": "additionalentityattributes:generic.water_speed",
-                "name": "Swimming",
-                "operation": "multiply_total",
-                "value": 0.025
             }
         ],
         "tick_rate": 20
@@ -44,12 +38,6 @@
                 "name": "SPEED",
                 "operation": "addition",
                 "value": 0.06
-            },
-            {
-                "attribute": "additionalentityattributes:generic.water_speed",
-                "name": "Swimming",
-                "operation": "multiply_base",
-                "value": 0.075
             },
             {
                 "attribute": "additionalentityattributes:player.dig_speed",
@@ -77,12 +65,6 @@
                 "value": 0.08
             },
             {
-                "attribute": "additionalentityattributes:generic.water_speed",
-                "name": "Swimming",
-                "operation": "multiply_base",
-                "value": 0.1
-            },
-            {
                 "attribute": "additionalentityattributes:player.dig_speed",
                 "name": "Digging",
                 "operation": "multiply_base",
@@ -107,12 +89,6 @@
                 "value": 0.1
             },
             {
-                "attribute": "additionalentityattributes:generic.water_speed",
-                "name": "Swimming",
-                "operation": "multiply_base",
-                "value": 0.125
-            },
-            {
                 "attribute": "additionalentityattributes:player.dig_speed",
                 "name": "Digging",
                 "operation": "multiply_base",
@@ -135,12 +111,6 @@
                 "name": "SPEED",
                 "operation": "addition",
                 "value": 0.13
-            },
-            {
-                "attribute": "additionalentityattributes:generic.water_speed",
-                "name": "Swimming",
-                "operation": "multiply_base",
-                "value": 0.15
             },
             {
                 "attribute": "additionalentityattributes:player.dig_speed",
