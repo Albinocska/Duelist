@@ -1,7 +1,7 @@
 {
     "type":"origins:multiple",
     "hidden":false,
-    "description":"test",
+    "description":"Reach and attack speed",
     "badges": [
 
     ],
@@ -13,12 +13,20 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/true_focus"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.013
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:player.entity_interaction_range",
+                "name": "Entity Reach",
+                "operation": "addition",
+                "value": 0.17
+            },
+            {
+                "attribute": "minecraft:player.block_interaction_range",
+                "name": "Block Reach",
+                "operation": "addition",
+                "value": 0.33
+            }
+        ],
         "tick_rate": 20
     },
 
@@ -30,12 +38,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/true_focus"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.03
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:player.entity_interaction_range",
+                "name": "Entity Reach",
+                "operation": "addition",
+                "value": 0.5
+            },
+            {
+                "attribute": "minecraft:player.block_interaction_range",
+                "name": "Block Reach",
+                "operation": "addition",
+                "value": 1
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "Attack speed",
+                "operation": "multiply_total",
+                "value": 1.05
+            }
+        ],
         "tick_rate": 20
         
     },
@@ -47,12 +69,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/true_focus"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.043
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:player.entity_interaction_range",
+                "name": "Entity Reach",
+                "operation": "addition",
+                "value": 0.67
+            },
+            {
+                "attribute": "minecraft:player.block_interaction_range",
+                "name": "Block Reach",
+                "operation": "addition",
+                "value": 1.33
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "Attack speed",
+                "operation": "multiply_total",
+                "value": 1.1
+            }
+        ],
         "tick_rate": 20
     },
     "lvl_4":{
@@ -63,12 +99,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/true_focus"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.56
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:player.entity_interaction_range",
+                "name": "Entity Reach",
+                "operation": "addition",
+                "value": 0.83
+            },
+            {
+                "attribute": "minecraft:player.block_interaction_range",
+                "name": "Block Reach",
+                "operation": "addition",
+                "value": 1.67
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "Attack speed",
+                "operation": "multiply_total",
+                "value": 1.15
+            }
+        ],
         "tick_rate": 20
     },
     "lvl_5":{
@@ -79,13 +129,33 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/true_focus"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.08
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:player.entity_interaction_range",
+                "name": "Entity Reach",
+                "operation": "addition",
+                "value": 1
+            },
+            {
+                "attribute": "minecraft:player.block_interaction_range",
+                "name": "Block Reach",
+                "operation": "addition",
+                "value": 2
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "Attack speed",
+                "operation": "multiply_total",
+                "value": 1.2
+            },
+            {
+                "attribute": "minecraft:player.sweeping_damage_ratio",
+                "name": "Sweeping",
+                "operation": "multiply_total",
+                "value": 2
+                
+            }
+        ],
         "tick_rate": 20
     }
-    
 }

@@ -15,7 +15,7 @@
     "hud_render": {
         "should_render": true,
         "order": 1,
-        "sprite_location": "textures/gui/community/huang/resource_bar_01.png",
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
         "bar_index": 4,
         "icon_index": 0
     },
