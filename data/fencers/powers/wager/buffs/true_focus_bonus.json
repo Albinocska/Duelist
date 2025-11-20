@@ -19,13 +19,7 @@
                 "name": "Entity Reach",
                 "operation": "addition",
                 "value": 0.17
-            },
-            {
-                "attribute": "reach-entity-attributes:reach",
-                "name": "Block Reach",
-                "operation": "addition",
-                "value": 0.33
-            }
+            }       
         ],
         "tick_rate": 20
     },
@@ -44,12 +38,6 @@
                 "name": "Entity Reach",
                 "operation": "addition",
                 "value": 0.5
-            },
-            {
-                "attribute": "reach-entity-attributes:reach",
-                "name": "Block Reach",
-                "operation": "addition",
-                "value": 1
             },
             {
                 "attribute": "minecraft:generic.attack_speed",
@@ -77,12 +65,6 @@
                 "value": 0.67
             },
             {
-                "attribute": "reach-entity-attributes:reach",
-                "name": "Block Reach",
-                "operation": "addition",
-                "value": 1.33
-            },
-            {
                 "attribute": "minecraft:generic.attack_speed",
                 "name": "Attack speed",
                 "operation": "multiply_total",
@@ -107,12 +89,6 @@
                 "value": 0.83
             },
             {
-                "attribute": "reach-entity-attributes:reach",
-                "name": "Block Reach",
-                "operation": "addition",
-                "value": 1.67
-            },
-            {
                 "attribute": "minecraft:generic.attack_speed",
                 "name": "Attack speed",
                 "operation": "multiply_total",
@@ -135,12 +111,6 @@
                 "name": "Entity Reach",
                 "operation": "addition",
                 "value": 1
-            },
-            {
-                "attribute": "reach-entity-attributes:reach",
-                "name": "Block Reach",
-                "operation": "addition",
-                "value": 2
             },
             {
                 "attribute": "minecraft:generic.attack_speed",

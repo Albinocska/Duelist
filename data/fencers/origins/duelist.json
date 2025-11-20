@@ -16,6 +16,7 @@
         "fencers:wager/powers/wager",
         "fencers:wager/powers/wager_showcase",
         "fencers:wager/powers/scroll",
+        "fencers:wager/powers/dash",
         "fencers:wager/buffs/blitz_bonus",
         "fencers:wager/buffs/true_focus_bonus"
 

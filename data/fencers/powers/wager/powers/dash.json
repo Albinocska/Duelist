@@ -1,0 +1,124 @@
+{   
+    "type":"origins:multiple",
+    "hidden": true,
+
+    "two_blitz_chips":{
+        "type":"origins:active_self",
+        "hidden": true,
+        "cooldown": 60,
+        "key": "key.sprint",
+        "condition": {
+            "type":"origins:resource",
+            "compare_to": 2,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+            
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "space": "local",
+            "z": 1,
+            "client": true,
+            "server": true
+            
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index":20 ,
+            "icon_index": 0,
+            "order": 23
+            
+        }
+    },
+
+    "three_blitz_chips":{
+        "type":"origins:active_self",
+        "hidden": true,
+        "cooldown": 80,
+        "key": "key.sprint",
+        "condition": {
+            "type":"origins:resource",
+            "compare_to": 3,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+            
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "space": "local",
+            "z": 1.5,
+            "client": true,
+            "server": true
+            
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index":20 ,
+            "icon_index": 0,
+            "order": 23
+            
+        }
+    },
+
+    "four_blitz_chips":{
+        "type":"origins:active_self",
+        "hidden": true,
+        "cooldown": 100,
+        "key": "key.sprint",
+        "condition": {
+            "type":"origins:resource",
+            "compare_to": 4,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+            
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "space": "local",
+            "z": 2,
+            "client": true,
+            "server": true
+            
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index":20 ,
+            "icon_index": 0,
+            "order": 23
+            
+        }
+    },
+    
+    "five_blitz_chips":{
+        "type":"origins:active_self",
+        "hidden": true,
+        "cooldown": 120,
+        "key": "key.sprint",
+        "condition": {
+            "type":"origins:resource",
+            "compare_to": 5,
+            "comparison": "==",
+            "resource": "fencers:wager/chips/blitz"
+            
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "space": "local",
+            "z": 2.5,
+            "client": true,
+            "server": true
+            
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index":20 ,
+            "icon_index": 0,
+            "order": 23
+            
+        }
+    }
+}
