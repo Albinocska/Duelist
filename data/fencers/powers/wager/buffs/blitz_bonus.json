@@ -13,12 +13,20 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.013
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "SPEED",
+                "operation": "addition",
+                "value": 0.02
+            },
+            {
+                "attribute": "additionalentityattributes:generic.water_speed",
+                "name": "Swimming",
+                "operation": "multiply_total",
+                "value": 0.025
+            }
+        ],
         "tick_rate": 20
     },
 
@@ -30,12 +38,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.03
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "SPEED",
+                "operation": "addition",
+                "value": 0.06
+            },
+            {
+                "attribute": "additionalentityattributes:generic.water_speed",
+                "name": "Swimming",
+                "operation": "multiply_base",
+                "value": 0.075
+            },
+            {
+                "attribute": "additionalentityattributes:player.dig_speed",
+                "name": "Digging",
+                "operation": "multiply_base",
+                "value": 0.12
+            }
+        ],
         "tick_rate": 20
         
     },
@@ -47,12 +69,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.043
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "SPEED",
+                "operation": "addition",
+                "value": 0.08
+            },
+            {
+                "attribute": "additionalentityattributes:generic.water_speed",
+                "name": "Swimming",
+                "operation": "multiply_base",
+                "value": 0.1
+            },
+            {
+                "attribute": "additionalentityattributes:player.dig_speed",
+                "name": "Digging",
+                "operation": "multiply_base",
+                "value": 0.18
+            }
+        ],
         "tick_rate": 20
     },
     "lvl_4":{
@@ -63,12 +99,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.56
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "SPEED",
+                "operation": "addition",
+                "value": 0.1
+            },
+            {
+                "attribute": "additionalentityattributes:generic.water_speed",
+                "name": "Swimming",
+                "operation": "multiply_base",
+                "value": 0.125
+            },
+            {
+                "attribute": "additionalentityattributes:player.dig_speed",
+                "name": "Digging",
+                "operation": "multiply_base",
+                "value": 0.24
+            }
+        ],
         "tick_rate": 20
     },
     "lvl_5":{
@@ -79,12 +129,26 @@
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
         },
-        "modifier":{
-            "attribute": "minecraft:generic.movement_speed",
-            "name": "SPEED",
-            "operation": "addition",
-            "value": 0.08
-        },
+        "modifiers":[
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "SPEED",
+                "operation": "addition",
+                "value": 0.13
+            },
+            {
+                "attribute": "additionalentityattributes:generic.water_speed",
+                "name": "Swimming",
+                "operation": "multiply_base",
+                "value": 0.15
+            },
+            {
+                "attribute": "additionalentityattributes:player.dig_speed",
+                "name": "Digging",
+                "operation": "multiply_base",
+                "value": 0.3
+            }
+        ],
         "tick_rate": 20
     }
     
