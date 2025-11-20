@@ -1,8 +1,8 @@
 {
-    "type":"apoli:multiple",
+    "type":"origins:multiple",
     "hidden": true,
     "advance_valiance":{
-        "type": "apoli:resource",
+        "type": "origins:resource",
         "min":0,
         "max": 1,
         "start_value": 1,
@@ -11,14 +11,14 @@
             "order": 2,
             "should_render": true,
             "condition": {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions":[
                     {
-                        "type": "apoli:power_active",
+                        "type": "origins:power_active",
                         "power": "fencers:wager/powers/wager"
                     },
                     {
-                        "type": "apoli:resource",
+                        "type": "origins:resource",
                         "compare_to": 0,
                         "comparison": "==",
                         "resource": "fencers:wager/chips/wagered"
@@ -31,7 +31,7 @@
         }
     },
     "blitz":{
-        "type": "apoli:resource",
+        "type": "origins:resource",
         "min":0,
         "max": 1,
         "start_value": 1,
@@ -40,14 +40,14 @@
             "order": 3,
             "should_render": true,
             "condition": {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions":[
                     {
-                        "type": "apoli:power_active",
+                        "type": "origins:power_active",
                         "power": "fencers:wager/powers/wager"
                     },
                     {
-                        "type": "apoli:resource",
+                        "type": "origins:resource",
                         "compare_to": 1,
                         "comparison": "==",
                         "resource": "fencers:wager/chips/wagered"
@@ -60,7 +60,7 @@
         }
     },
     "overwhelming_strength":{
-        "type": "apoli:resource",
+        "type": "origins:resource",
         "min":0,
         "max": 1,
         "start_value": 1,
@@ -69,14 +69,14 @@
             "order": 4,
             "should_render": true,
             "condition": {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions":[
                     {
-                        "type": "apoli:power_active",
+                        "type": "origins:power_active",
                         "power": "fencers:wager/powers/wager"
                     },
                     {
-                        "type": "apoli:resource",
+                        "type": "origins:resource",
                         "compare_to": 2,
                         "comparison": "==",
                         "resource": "fencers:wager/chips/wagered"
@@ -89,7 +89,7 @@
         }
     },
     "true_focus":{
-        "type": "apoli:resource",
+        "type": "origins:resource",
         "min":0,
         "max": 1,
         "start_value": 1,
@@ -98,14 +98,14 @@
             "order": 5,
             "should_render": true,
             "condition": {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions":[
                     {
-                        "type": "apoli:power_active",
+                        "type": "origins:power_active",
                         "power": "fencers:wager/powers/wager"
                     },
                     {
-                        "type": "apoli:resource",
+                        "type": "origins:resource",
                         "compare_to": 3,
                         "comparison": "==",
                         "resource": "fencers:wager/chips/wagered"

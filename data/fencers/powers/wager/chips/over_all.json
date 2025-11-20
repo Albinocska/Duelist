@@ -1,5 +1,5 @@
 {
-        "type":"apoli:resource",
+        "type":"origins:resource",
         "min": 0,
         "max": 5,
         "hidden": true,

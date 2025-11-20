@@ -7,5 +7,5 @@
             "type": "origins:armor_value",
             "comparison": ">",
             "compare_to": 0
-        },    
+        }    
 }

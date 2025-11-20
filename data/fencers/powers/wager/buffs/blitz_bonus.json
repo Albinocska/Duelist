@@ -1,14 +1,14 @@
 {
-    "type":"apoli:multiple",
+    "type":"origins:multiple",
     "hidden":false,
     "description":"test",
     "badges": [
 
     ],
     "lvl_1":{
-        "type":"apoli:conditioned_attribute",
+        "type":"origins:conditioned_attribute",
         "condition": {
-            "type": "apoli:resource",
+            "type": "origins:resource",
             "compare_to": 1,
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
@@ -23,9 +23,9 @@
     },
 
     "lvl_2":{
-        "type":"apoli:conditioned_attribute",
+        "type":"origins:conditioned_attribute",
         "condition": {
-            "type": "apoli:resource",
+            "type": "origins:resource",
             "compare_to": 2,
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
@@ -40,9 +40,9 @@
         
     },
     "lvl_3":{
-        "type":"apoli:conditioned_attribute",
+        "type":"origins:conditioned_attribute",
         "condition": {
-            "type": "apoli:resource",
+            "type": "origins:resource",
             "compare_to": 3,
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
@@ -56,9 +56,9 @@
         "tick_rate": 20
     },
     "lvl_4":{
-        "type":"apoli:conditioned_attribute",
+        "type":"origins:conditioned_attribute",
         "condition": {
-            "type": "apoli:resource",
+            "type": "origins:resource",
             "compare_to": 4,
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"
@@ -72,9 +72,9 @@
         "tick_rate": 20
     },
     "lvl_5":{
-        "type":"apoli:conditioned_attribute",
+        "type":"origins:conditioned_attribute",
         "condition": {
-            "type": "apoli:resource",
+            "type": "origins:resource",
             "compare_to": 5,
             "comparison": "==",
             "resource": "fencers:wager/chips/blitz"

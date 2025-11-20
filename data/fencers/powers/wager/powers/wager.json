@@ -17,10 +17,10 @@
     ],
 
     "condition": {
-        "type":"apoli:or",
+        "type":"origins:or",
         "conditions": [ 
             {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions": [
                     {
                         "type": "origins:resource",
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions": [
                     {
                         "type": "origins:resource",
@@ -54,7 +54,7 @@
                 ]
             },
             {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions": [
                     {
                         "type": "origins:resource",
@@ -71,7 +71,7 @@
                 ]
             },
             {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions": [
                     {
                         "type": "origins:resource",
@@ -88,7 +88,7 @@
                 ]
             },
             {
-                "type":"apoli:and",
+                "type":"origins:and",
                 "conditions": [
                     {
                         "type": "origins:resource",
@@ -107,20 +107,20 @@
         ]
     },
     "entity_action": {
-        "type":"apoli:and",
+        "type":"origins:and",
         "actions": [
             {
-                "type":"apoli:if_else_list",
+                "type":"origins:if_else_list",
                 "actions": [
                     {
                         "condition": {
-                            "type":"apoli:resource",
+                            "type":"origins:resource",
                             "compare_to": 0,
                             "comparison": "==",
                             "resource": "fencers:wager/chips/wagered"
                         },
                         "action": {
-                            "type": "apoli:change_resource",
+                            "type": "origins:change_resource",
                             "operation": "add",
                             "change": 1,
                             "resource": "fencers:wager/chips/advance_valiance"
@@ -128,13 +128,13 @@
                     },
                     {
                         "condition": {
-                            "type":"apoli:resource",
+                            "type":"origins:resource",
                             "compare_to": 1,
                             "comparison": "==",
                             "resource": "fencers:wager/chips/wagered"
                         },
                         "action": {
-                            "type": "apoli:change_resource",
+                            "type": "origins:change_resource",
                             "operation": "add",
                             "change": 1,
                             "resource": "fencers:wager/chips/blitz"
@@ -142,13 +142,13 @@
                     },
                     {
                         "condition": {
-                            "type":"apoli:resource",
+                            "type":"origins:resource",
                             "compare_to": 2,
                             "comparison": "==",
                             "resource": "fencers:wager/chips/wagered"
                         },
                         "action": {
-                            "type": "apoli:change_resource",
+                            "type": "origins:change_resource",
                             "operation": "add",
                             "change": 1,
                             "resource": "fencers:wager/chips/overwhelming_strength"
@@ -156,13 +156,13 @@
                     },
                     {
                         "condition": {
-                            "type":"apoli:resource",
+                            "type":"origins:resource",
                             "compare_to": 3,
                             "comparison": "==",
                             "resource": "fencers:wager/chips/wagered"
                         },
                         "action": {
-                            "type": "apoli:change_resource",
+                            "type": "origins:change_resource",
                             "operation": "add",
                             "change": 1,
                             "resource": "fencers:wager/chips/true_focus"
@@ -171,13 +171,13 @@
                 ]
             },
             {
-                "type": "apoli:change_resource",
+                "type": "origins:change_resource",
                 "change": 1,
                 "operation": "add",
                 "resource": "fencers:wager/chips/over_all"
             },
             {
-                "type": "apoli:play_sound",
+                "type": "origins:play_sound",
                 "sound": "minecraft:item.armor.equip_chain",
                 "volume": 1
             }

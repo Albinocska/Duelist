@@ -1,5 +1,5 @@
 {
-    "type":"apoli:resource",
+    "type":"origins:resource",
     "hidden": true,
     "hud_render": {
         "should_render": false

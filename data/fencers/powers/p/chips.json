@@ -40,34 +40,34 @@
         "type": "origins:action_on_callback",
         "execute_chosen_when_orb": true,
         "entity_action_respawned": {
-            "type":"apoli:and",
+            "type":"origins:and",
             "actions": [
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/blitz"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/advance_valiance"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/true_focus"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/overwhelming_strength"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/over_all"
@@ -199,37 +199,37 @@
                     "server": true
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/blitz"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/advance_valiance"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/true_focus"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/overwhelming_strength"
                 },
                 {
-                    "type":"apoli:change_resource",
+                    "type":"origins:change_resource",
                     "change": 0,
                     "operation": "set",
                     "resource": "fencers:wager/chips/over_all"
                 },
                 {
-                    "type":"apoli:trigger_cooldown",
+                    "type":"origins:trigger_cooldown",
                     "power": "fencers:p/full_heal"
                 }
             ]
