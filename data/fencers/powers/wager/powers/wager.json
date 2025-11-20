@@ -81,7 +81,7 @@
                     },
                     {
                         "type": "origins:resource",
-                        "compare_to": 3,
+                        "compare_to": 2,
                         "comparison": "==",
                         "resource": "fencers:p/chips_revives"
                     }
@@ -98,7 +98,7 @@
                     },
                     {
                         "type": "origins:resource",
-                        "compare_to": 4,
+                        "compare_to": 1,
                         "comparison": "==",
                         "resource": "fencers:p/chips_revives"
                     }
